@@ -1,0 +1,20 @@
+{
+  "name": "weather-alert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siascone/weather-alerts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siascone/weather-alerts/issues"
+  },
+  "homepage": "https://github.com/siascone/weather-alerts#readme"
+}
