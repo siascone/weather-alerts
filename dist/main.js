@@ -16,7 +16,7 @@
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"counties\": () => (/* binding */ counties)\n/* harmony export */ });\n\nconst counties = function(state) {\n    return (\n        $.ajax({\n            url: `https://api.weather.gov/zones/?area=${state}&type=county`,\n            method: 'GET'\n        })\n    );\n};\n\n//# sourceURL=webpack://weather-alert/./scripts/util.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"activeAlerts\": () => (/* binding */ activeAlerts)\n/* harmony export */ });\n\nconst activeAlerts = function () {\n    return (\n        $.ajax({\n            url: 'https://api.weather.gov/alerts/active',\n            method: 'GET',\n\n        })\n    )\n}\n// export const activeAlerts = function () {\n//     return (\n//         $.ajax({\n//             url: 'https://api.weather.gov/alerts/active',\n//             method: 'GET',\n\n//         })\n//     )\n// }\n\n//# sourceURL=webpack://weather-alert/./scripts/util.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _view__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./view */ \"./src/view.js\");\n\n\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n    const rootEl = document.querySelector(\"#root\");\n    window.rootEl = rootEl;\n\n    new _view__WEBPACK_IMPORTED_MODULE_0__.default(rootEl);\n});\n\n//# sourceURL=webpack://weather-alert/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _view__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./view */ \"./src/view.js\");\n\n\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n    const rootEl = document.querySelector(\"#root\");\n    window.rootEl = rootEl;\n\n    new _view__WEBPACK_IMPORTED_MODULE_0__.default(rootEl);\n});\n\n\n\n//# sourceURL=webpack://weather-alert/./src/index.js?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _vie
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _scripts_util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scripts/util */ \"./scripts/util.js\");\n\n\nclass View {\n    constructor(el) {\n        this.el = el;\n        this.bindEvents();\n    }\n\n    showCounties() {\n        let div = document.createElement('div');\n        let c = JSON.stringify((0,_scripts_util__WEBPACK_IMPORTED_MODULE_0__.counties)('CA'));\n        debugger;\n        div.innerHTML = c;\n        this.append(div);\n    }\n\n    bindEvents() {\n        this.el.addEventListener('click', this.showCounties);\n    }\n\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (View);\n\n//# sourceURL=webpack://weather-alert/./src/view.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _scripts_util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scripts/util */ \"./scripts/util.js\");\n\n\nclass View {\n    constructor(el) {\n        this.el = el;\n        this.addEvents();\n        this.getActiveAlerts.bind(this);\n    }\n\n    getActiveAlerts() {\n        let div = document.createElement('div');\n        (0,_scripts_util__WEBPACK_IMPORTED_MODULE_0__.activeAlerts)().then(function(res) {\n            debugger;\n            div.innerText = JSON.stringify(res);\n        }).then(() => this.append(div));\n    }\n\n    addEvents() {\n        this.el.addEventListener('click', this.getActiveAlerts);\n    }\n\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (View);\n\n//# sourceURL=webpack://weather-alert/./src/view.js?");
 
 /***/ })
 

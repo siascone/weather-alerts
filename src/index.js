@@ -1,4 +1,4 @@
-import View from './view'
+import View from './view';
 
 document.addEventListener("DOMContentLoaded", () => {
     const rootEl = document.querySelector("#root");
@@ -6,3 +6,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     new View(rootEl);
 });
+

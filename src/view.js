@@ -1,21 +1,22 @@
-import {counties} from '../scripts/util';
+import {activeAlerts} from '../scripts/util';
 
 class View {
     constructor(el) {
         this.el = el;
-        this.bindEvents();
+        this.addEvents();
+        this.getActiveAlerts.bind(this);
     }
 
-    showCounties() {
+    getActiveAlerts() {
         let div = document.createElement('div');
-        let c = JSON.stringify(counties('CA'));
-        debugger;
-        div.innerHTML = c;
-        this.append(div);
+        activeAlerts().then(function(res) {
+            debugger;
+            div.innerText = JSON.stringify(res);
+        }).then(() => this.append(div));
     }
 
-    bindEvents() {
-        this.el.addEventListener('click', this.showCounties);
+    addEvents() {
+        this.el.addEventListener('click', this.getActiveAlerts);
     }
 
 }

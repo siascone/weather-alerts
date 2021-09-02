@@ -1,9 +1,19 @@
 
-export const counties = function(state) {
+export const activeAlerts = function () {
     return (
         $.ajax({
-            url: `https://api.weather.gov/zones/?area=${state}&type=county`,
-            method: 'GET'
+            url: 'https://api.weather.gov/alerts/active',
+            method: 'GET',
+
         })
-    );
-};
+    )
+}
+// export const activeAlerts = function () {
+//     return (
+//         $.ajax({
+//             url: 'https://api.weather.gov/alerts/active',
+//             method: 'GET',
+
+//         })
+//     )
+// }
