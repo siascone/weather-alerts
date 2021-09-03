@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _view__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./view */ \"./src/view.js\");\n\n\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n    const rootEl = document.querySelector(\"#root\");\n    window.rootEl = rootEl;\n\n    new _view__WEBPACK_IMPORTED_MODULE_0__.default(rootEl);\n});\n\n\n\n//# sourceURL=webpack://weather-alert/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _view__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./view */ \"./src/view.js\");\n\n\n\n// document.addEventListener(\"DOMContentLoaded\", () => {\n//     const rootEl = document.querySelector(\"#root\");\n//     window.rootEl = rootEl;\n\n//     new View(rootEl);\n// });\n\n\n\n//# sourceURL=webpack://weather-alert/./src/index.js?");
 
 /***/ }),
 
