@@ -17,7 +17,7 @@ In "Weather Alerts" users will be able to:
 - SimpleMaps: interactive map template 
 
 ## Wireframe
-[]('./assets/weatherAlertsWireframe')
+![wireframe]('./assets/weatherAlertsWireframe')
 
 ## Implementation Timeline
 - 9/2/2021 - API and map integration researach
