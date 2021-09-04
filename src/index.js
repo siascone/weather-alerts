@@ -1,5 +1,5 @@
 
-import View from './view';
+import View from '../scripts/view';
 
 // document.addEventListener("DOMContentLoaded", () => {
 //     const rootEl = document.querySelector("#root");

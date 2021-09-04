@@ -1,0 +1,32 @@
+.map-and-alerts {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.header, .footer {
+    border: 2px solid black;
+    height: 100px;
+    margin: 5px;
+}
+
+.simple-map {
+    margin: 10px auto;
+}
+
+.map-container {
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 75%;
+    margin: 5px;
+
+    /* height: 400px */
+}
+
+.alert-container {
+    border: 2px solid red;
+    width: 25%;
+    margin: 5px;
+
+}
