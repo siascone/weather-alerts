@@ -1,10 +1,16 @@
+import AddStateClicks from '../scripts/clickEvents';
 
-import View from '../scripts/view';
+document.addEventListener("DOMContentLoaded", () => {
+    let map = document.getElementById('map');
+    
+    const stateClicks = function() {
+        new AddStateClicks();
+    }
 
-// document.addEventListener("DOMContentLoaded", () => {
-//     const rootEl = document.querySelector("#root");
-//     window.rootEl = rootEl;
+    if (!map.innerHTML) {
+        setTimeout(stateClicks, 1000);
+    }
 
-//     new View(rootEl);
-// });
+});
+
 

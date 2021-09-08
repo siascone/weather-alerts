@@ -27,6 +27,8 @@
 .alert-container {
     border: 2px solid red;
     width: 25%;
+    max-height: 500px;
     margin: 5px;
+    overflow: scroll;
 
 }
