@@ -74,21 +74,21 @@ var simplemaps_usmap_mapdata={
   state_specific: {
     HI: {
       name: "Hawaii",
-      description: "default",
+      description: "Aloha State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     AK: {
       name: "Alaska",
-      description: "default",
+      description: "The Last Frontier",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     FL: {
       name: "Florida",
-      description: "default",
+      description: "Sunshine State",
       color: "default",
       hover_color: "default",
       url: "default",
@@ -96,84 +96,84 @@ var simplemaps_usmap_mapdata={
     },
     NH: {
       name: "New Hampshire",
-      description: "default",
+      description: "Granite State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     VT: {
       name: "Vermont",
-      description: "default",
+      description: "Green Mountain State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     ME: {
       name: "Maine",
-      description: "default",
+      description: "Pine Tree State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     RI: {
       name: "Rhode Island",
-      description: "default",
+      description: "Ocean State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     NY: {
       name: "New York",
-      description: "default",
+      description: "Empire State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     PA: {
       name: "Pennsylvania",
-      description: "default",
+      description: "Keystone State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     NJ: {
       name: "New Jersey",
-      description: "default",
+      description: "Garden State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     DE: {
       name: "Delaware",
-      description: "default",
+      description: "The First State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     MD: {
       name: "Maryland",
-      description: "default",
+      description: "Free State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     VA: {
       name: "Virginia",
-      description: "default",
+      description: "The Old Dominion",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     WV: {
       name: "West Virginia",
-      description: "default",
+      description: "Mountain State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     OH: {
       name: "Ohio",
-      description: "default",
+      description: "Buckeye State",
       color: "default",
       hover_color: "default",
       url: "default"
@@ -187,28 +187,28 @@ var simplemaps_usmap_mapdata={
     },
     IL: {
       name: "Illinois",
-      description: "default",
+      description: "Praire State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     CT: {
       name: "Connecticut",
-      description: "default",
+      description: "Constitution State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     WI: {
       name: "Wisconsin",
-      description: "default",
+      description: "America's Dairyland",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     NC: {
       name: "North Carolina",
-      description: "default",
+      description: "Tar Heel State",
       color: "default",
       hover_color: "default",
       url: "default"
@@ -222,49 +222,49 @@ var simplemaps_usmap_mapdata={
     },
     MA: {
       name: "Massachusetts",
-      description: "default",
+      description: "The Bay State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     TN: {
       name: "Tennessee",
-      description: "default",
+      description: "Volunteer State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     AR: {
       name: "Arkansas",
-      description: "default",
+      description: "The Natural State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     MO: {
       name: "Missouri",
-      description: "default",
+      description: "Show-me State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     GA: {
       name: "Georgia",
-      description: "default",
+      description: "Peach State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     SC: {
       name: "South Carolina",
-      description: "default",
+      description: "Palmetto State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     KY: {
       name: "Kentucky",
-      description: "default",
+      description: "Bluegrass State",
       color: "default",
       zoomable: "no",
       hover_color: "default",
@@ -272,161 +272,161 @@ var simplemaps_usmap_mapdata={
     },
     AL: {
       name: "Alabama",
-      description: "default",
+      description: "Heart of Dixie",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     LA: {
       name: "Louisiana",
-      description: "default",
+      description: "Pelican State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     MS: {
       name: "Mississippi",
-      description: "default",
+      description: "Magnolia State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     IA: {
       name: "Iowa",
-      description: "default",
+      description: "Hawkeye State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     MN: {
       name: "Minnesota",
-      description: "default",
+      description: "Land of 10,000 Lakes",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     OK: {
       name: "Oklahoma",
-      description: "default",
+      description: "Sooner State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     TX: {
       name: "Texas",
-      description: "default",
+      description: "Lone Star State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     NM: {
       name: "New Mexico",
-      description: "default",
+      description: "Land of Enchantment",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     KS: {
       name: "Kansas",
-      description: "default",
+      description: "Sunflower State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     NE: {
       name: "Nebraska",
-      description: "default",
+      description: "Cornhusker State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     SD: {
       name: "South Dakota",
-      description: "default",
+      description: "The Mount Rushmore State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     ND: {
       name: "North Dakota",
-      description: "default",
+      description: "Peace Garden State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     WY: {
       name: "Wyoming",
-      description: "default",
+      description: "Equality State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     MT: {
       name: "Montana",
-      description: "default",
+      description: "Treasure State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     CO: {
       name: "Colorado",
-      description: "default",
+      description: "Centennial State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     UT: {
       name: "Utah",
-      description: "default",
+      description: "Beehive State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     AZ: {
       name: "Arizona",
-      description: "default",
+      description: "Grand Canyon State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     NV: {
       name: "Nevada",
-      description: "default",
+      description: "Silver State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     OR: {
       name: "Oregon",
-      description: "default",
+      description: "Beaver State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     WA: {
       name: "Washington",
-      description: "default",
+      description: "Evergreen State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     CA: {
       name: "California",
-      description: "default",
+      description: "The Golden State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     MI: {
       name: "Michigan",
-      description: "default",
+      description: "The Great Lakes State",
       color: "default",
       hover_color: "default",
       url: "default"
     },
     ID: {
       name: "Idaho",
-      description: "default",
+      description: "Gem State",
       color: "default",
       hover_color: "default",
       url: "default"
